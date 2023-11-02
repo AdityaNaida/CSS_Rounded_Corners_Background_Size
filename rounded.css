@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+button{
+    margin: 1em;
+    padding: 10px 30px;
+   font-size: 1.5em;
+   background-color: #000;
+   color: #fff;
+   
+   /* border-radius: 10px 30px 50px 40%;
+  {Top-Left -> Top-Right -> Bottom-Right -> Bottom-Left
+   10px - First value applies to top-left corner
+   30px - Second value applies to top-right corner
+   50px - Third value applies to bottom-right corner
+   40% - Fourth value applies to bottom-left corner} */
+
+   /* border-radius: 15px 52px 42px;
+   {Top-left -> Top-right & Bottom-left -> Bottom-right} */
+/* 
+   border-radius: 40px 20px;
+   {Top-Left & Bottom-Right -> Top-Right & Bottom-Left} */
+
+   /* border-radius: 1em; 
+   Forth all 4 sides
+   */
+
+   /* border-top-right-radius: 40%;
+   border-top-left-radius: 40%;
+   border-bottom-right-radius: 40%;
+   border-bottom-left-radius: 40%; */
+   
+}
+
+.container{
+    height: 300px;
+    width: 300px;
+    background: url('https://images.pexels.com/photos/3566226/pexels-photo-3566226.jpeg') center no-repeat scroll;
+    background-size: cover;
+    border-radius: 50%;
+}
